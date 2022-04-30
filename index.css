@@ -1,0 +1,108 @@
+    body {
+        color:white;
+        background-color:black; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 16px;
+     }
+     a {
+         color: white;
+         text-decoration: none;
+     }
+       header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #FF4000;
+           }
+           
+           .center {
+               text-align: center;
+           }
+
+           h1 {
+               color: #FF4000;
+           }
+
+           footer img {
+               width: 40px;
+               height: 40px;
+
+           }
+
+           footer {
+               display: flex;
+               justify-content: center;
+
+           }
+
+           footer a {
+               margin: 20px;
+               text-align: center;
+           }
+           footer p {
+               margin: 2px;
+           }
+
+           .container {
+               padding: 0px 50px;
+           }
+
+           nav a:hover {
+               color: green;
+           }
+
+            .contact-form input {
+               width: 100%;
+               padding: 8px 0px;
+               margin: 8px 0px;
+
+           }
+
+            .contact-form input[type=text] {
+               height: 100px;
+           }
+
+           button {
+            background-color: #FF4000;
+            border: none;
+            width: 100px;
+            height: 30px;
+           }
+
+           div.button {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0d0d0d;
+        }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #ffee05;
+            border-radius: 2px;
+            box-shadow: 0 5px 0 #736b02;
+        }
+        
+        button:hover{
+            background: #ffee05;
+            box-shadow: 0 5px #736b02;
+            cursor: pointer;
+        }
+        
+        button:active {
+            position: relative;
+            top: 5px;
+            box-shadow: none;
+        
+            
+        }
