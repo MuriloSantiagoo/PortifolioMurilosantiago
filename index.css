@@ -52,6 +52,8 @@
 
            .container {
                padding: 0px 50px;
+               color: white;
+         text-decoration: none;
            }
 
            nav a:hover {
@@ -105,4 +107,9 @@
             box-shadow: none;
         
             
+        }
+
+        h3 {
+            color: green;
+            text-decoration: none;
         }
