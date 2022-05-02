@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=V, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="project.html">Projetos</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contato</a>
+                        </li>
+            </ul>  
+            </nav>
+            <header class="center">
+                <div>
+                    <img src="./img/Murilo santiago.jpeg"></img>
+                </div>
+                <h1>Murilo Santiago</h1>
+                <h2>Desenvolvedor de Software</h2>
+            </header>
+        <form class="contact-form"action="https://formsubmit.co/murilosantiago.dev@gmail.com" method="POST">
+            <label for="email">E-mail</label>
+             <input type="email" name="email" id="email" required>
+             <label for="message"> Mensagem</label>
+             <input type="text" name="message" id="message" required>
+             <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+             <button type="submit">SEND</button> 
+        </form> 
+    </div>
+    
+</body>
+</html>
